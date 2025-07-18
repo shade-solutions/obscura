@@ -1,49 +1,50 @@
-# 🕵️‍♂️ Obscura — The Icons You’ve Been Missing
+# 🕵️‍♂️ Obscura Icons
 
-**NPM:** [Obscura on NPM](https://www.npmjs.com/package/obscura-icons)
-**GitHub:** [github.com/shade-solutions/obscura](https://github.com/shade-solutions/obscura)
-**Website:** [shade-solutions.github.io/obscura](https://shade-solutions.github.io/obscura)
+<div align="center">
 
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura)
+**The React icon library for unique, rare, and niche icons that other libraries miss**
 
-A minimal React icon library with **unique, rare, and niche icons** that other libraries miss.
+[![NPM Version](https://img.shields.io/npm/v/obscura-icons?color=blue&logo=npm)](https://www.npmjs.com/package/obscura-icons)
+[![NPM Downloads](https://img.shields.io/npm/dm/obscura-icons?color=green)](https://www.npmjs.com/package/obscura-icons)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/obscura-icons?color=orange)](https://bundlephobia.com/package/obscura-icons)
+[![GitHub Stars](https://img.shields.io/github/stars/shade-solutions/obscura?style=social)](https://github.com/shade-solutions/obscura)
 
-> Obscura doesn’t try to replace Lucide — it completes it. We focus on icons for AI, SaaS dashboards, developer workflows, automation, agents, and more.
+[**🌐 Explore Icons**](https://shade-solutions.github.io/obscura) • [**📦 NPM Package**](https://www.npmjs.com/package/obscura-icons) • [**💻 GitHub**](https://github.com/shade-solutions/obscura)
 
----
-
-## ✨ Features
-
-* 📦 **Tree-shakable React components**
-* 🧠 **AI-first & SaaS-specific icons** (e.g. LLM, workflow, token, conversion rate)
-* 🧩 **Unique modern UI/UX needs** (e.g. feature flag, roadmap, mind map)
-* 🎨 **Lightweight SVGs** optimized for performance
-* 🛠️ **Super easy to add new icons** via `icons/` folder
-* 🔍 **Full searchable web viewer** to explore and copy icons
-* ⚡ Copy as **JSX** or raw **SVG** like lucide.dev
+</div>
 
 ---
 
-## 🚀 Installation
+## ✨ Why Obscura?
+
+> **Obscura doesn't try to replace Lucide or Heroicons — it completes them.**
+
+While general icon libraries cover common needs, **Obscura focuses on the gaps**: AI workflows, SaaS dashboards, developer tools, and modern app features that are missing everywhere else.
+
+### 🎯 **Perfect for:**
+- 🤖 **AI & ML Applications** - LLM nodes, agent flows, prompt engines
+- 📈 **SaaS Dashboards** - MRR charts, churn rates, feature flags
+- ⚙️ **Developer Tools** - API gateways, webhooks, JWT tokens
+- 🧩 **Modern UI Patterns** - Beta badges, config files, memory banks
+
+---
+
+## 🚀 Quick Start
 
 ```bash
 npm install obscura-icons
-# or
-pnpm add obscura-icons
 ```
 
----
-
-## 🧪 Usage
-
 ```tsx
-import { AiAssistant, WorkflowBranch, MrrChart } from 'obscura-icons';
+import { AiBrain, FeatureFlag, MrrChart, CliTerminal } from 'obscura-icons';
 
-function App() {
+function Dashboard() {
   return (
-    <div>
-      <AIAssistant />
-      <WorkflowBranch />
+    <div className="flex gap-4">
+      <AiBrain size={32} color="#3B82F6" />
+      <FeatureFlag size={24} />
+      <MrrChart size={28} color="#10B981" />
+      <CliTerminal size={20} />
     </div>
   );
 }
@@ -53,71 +54,189 @@ function App() {
 
 ## 📚 Icon Categories
 
-* 🤖 AI / Automation
-* 📈 SaaS & Startup Dashboards
-* ⚙️ Developer Tooling
-* 🎨 Design System Controls
-* 📚 EdTech & Productivity
-* 🌐 Web3 / Tokens
-* 🧩 UI Widgets & Embedded Tools
+<table>
+<tr>
+<td width="25%">
+
+### 🤖 AI & Automation
+- `AiBrain` - Neural networks
+- `LlmNode` - Language models  
+- `AgentFlow` - AI workflows
+- `PromptEngine` - Prompt systems
+- `ToolCall` - Function calling
+- `MemoryBank` - Context storage
+- `TokenGrid` - Token visualization
+- `AiAssistant` - AI chat bots
+
+</td>
+<td width="25%">
+
+### 📈 SaaS & Analytics  
+- `MrrChart` - Revenue tracking
+- `ChurnRate` - Customer analytics
+- `GrowthArrow` - Growth metrics
+- `FunnelConversion` - Sales funnels
+- `FeatureFlag` - Feature toggles
+- `Roadmap` - Project planning
+- `BetaBadge` - Beta indicators
+
+</td>
+<td width="25%">
+
+### ⚙️ Developer Tools
+- `ApiGateway` - API management
+- `CliTerminal` - Command line
+- `JwtToken` - Authentication
+- `ConfigFile` - Configuration
+- `Webhook` - API integrations
+- `WorkflowBranch` - Process flows
+
+</td>
+<td width="25%">
+
+### 🧩 UI Widgets
+- `ChatWidget` - Live chat
+- *More coming soon...*
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧩 Add Your Icon (Super Simple)
+## 🎨 Features
 
-1. Add your SVG to `icons/` directory as `my-icon.svg`
-2. Run:
+<div align="center">
 
-```bash
-pnpm build
+| Feature | Description |
+|---------|-------------|
+| 📦 **Tree Shakable** | Import only what you need |
+| 🎯 **TypeScript** | Full type definitions included |
+| ⚡ **Lightweight** | Optimized SVGs, ~7.7kB total |
+| 🎨 **Customizable** | Size, color, and all SVG props |
+| 🔄 **Consistent** | Same API as popular icon libraries |
+| 🌙 **Theme Ready** | Works with dark/light modes |
+
+</div>
+
+---
+
+## 🌐 Icon Explorer
+
+**[🔍 Browse all 22 icons →](https://shade-solutions.github.io/obscura)**
+
+Our interactive website lets you:
+- 🔍 **Search & filter** icons by category
+- 📋 **Click to copy** JSX or SVG code
+- 🌙 **Toggle dark/light** mode
+- 📱 **Responsive design** for all devices
+
+---
+
+## 📖 Usage Examples
+
+### Basic Usage
+```tsx
+import { AiBrain } from 'obscura-icons';
+
+<AiBrain size={24} color="currentColor" />
 ```
 
-3. Your icon will be auto-converted into a React component
+### With Custom Props
+```tsx
+<FeatureFlag 
+  size={32} 
+  color="#10B981"
+  className="hover:scale-110 transition-transform"
+  onClick={() => toggleFeature()}
+/>
+```
 
-Naming convention: use `kebab-case.svg` → becomes `PascalCase` component
+### TypeScript Support
+```tsx
+import { MrrChart, type MrrChartProps } from 'obscura-icons';
 
-Example: `ai-brain.svg` → `<AIBrain />`
+const IconWrapper: React.FC<{ iconProps: MrrChartProps }> = ({ iconProps }) => {
+  return <MrrChart {...iconProps} />;
+};
+```
 
----
+### Styling with CSS
+```css
+.icon-container {
+  color: #3B82F6; /* Icons inherit this color */
+}
 
-## 🌐 Obscura Viewer Website
-
-Explore all icons at our beautiful icon explorer:
-👉 **[shade-solutions.github.io/obscura](https://shade-solutions.github.io/obscura)**
-
-Features:
-
-* 🔍 Searchable icon grid
-* 📋 Copy as SVG or JSX
-* 🌙 Dark/light theme
-* ⌨️ Keyboard shortcuts
-* 📤 Request & submit new icons
-
----
-
-## 🛠️ Roadmap
-
-* [x] SVG → React generator
-* [x] Simple build system
-* [x] Publish to NPM
-* [ ] Web UI with copy features
-* [ ] Autocomplete VS Code extension
-* [ ] Animated SVG support
-* [ ] Icon category filtering
+.icon-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+```
 
 ---
 
-## 🧑‍💻 Contribute
+## 🛠️ Adding New Icons
 
-We welcome PRs with new icons! Just follow the instructions in `CONTRIBUTING.md`.
+Contributing new icons is super simple:
+
+1. **Add SVG** to `icons/` directory using `kebab-case.svg`
+2. **Run build** with `npm run build`  
+3. **Icon auto-generated** as React component
+
+```bash
+# Example: adding a new icon
+echo '<svg>...</svg>' > icons/my-new-icon.svg
+npm run build
+# Now available as <MyNewIcon />
+```
+
+**Naming Convention:** `kebab-case.svg` → `PascalCase` component
+- `ai-brain.svg` → `<AiBrain />`
+- `feature-flag.svg` → `<FeatureFlag />`
+
+---
+
+## 🎯 Roadmap
+
+- [x] **22 Core Icons** - Essential AI, SaaS, and dev tools
+- [x] **GitHub Pages Website** - Interactive icon explorer  
+- [x] **NPM Package** - Production-ready library
+- [ ] **50+ Icons** - Expand to cover more use cases
+- [ ] **VS Code Extension** - Autocomplete and snippets
+- [ ] **Figma Plugin** - Design system integration
+- [ ] **Animated Variants** - Micro-interactions
+- [ ] **Icon Requests** - Community-driven additions
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Quick Contribution
+1. Fork the repository
+2. Add your SVG to `icons/` directory
+3. Run `npm run build` to generate components
+4. Submit a Pull Request
+
+### Icon Guidelines
+- Use `viewBox="0 0 24 24"` for consistency
+- Use `stroke="currentColor"` for theming
+- Keep designs minimal and recognizable
+- Focus on unique icons not found elsewhere
 
 ---
 
 ## 📄 License
 
-MIT — Free for personal and commercial use.
+**MIT License** - Free for personal and commercial use.
 
 ---
 
-Made by [Shaswat Raj](https://sh20raj.github.io/) at [Shade Solutions](https://github.com/shade-solutions)
-# obscura
+<div align="center">
+
+**Made with ❤️ by [Shaswat Raj](https://sh20raj.github.io/) at [Shade Solutions](https://github.com/shade-solutions)**
+
+[⭐ Star on GitHub](https://github.com/shade-solutions/obscura) • [🐦 Follow Updates](https://twitter.com/sh20raj) • [💬 Join Discussion](https://github.com/shade-solutions/obscura/discussions)
+
+</div>

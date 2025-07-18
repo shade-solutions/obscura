@@ -120,5 +120,5 @@ MIT — Free for personal and commercial use.
 
 ---
 
-Made by [Shaswat Raj](https://shaswat.live) at [Shade Solutions](https://github.com/shade-solutions)
+Made by [Shaswat Raj](https://sh20raj.github.io/) at [Shade Solutions](https://github.com/shade-solutions)
 # obscura

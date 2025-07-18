@@ -3,18 +3,18 @@
 ## Installation
 
 ```bash
-npm install obscura
+npm install obscura-icons
 # or
-pnpm add obscura
+pnpm add obscura-icons
 # or
-yarn add obscura
+yarn add obscura-icons
 ```
 
 ## Basic Usage
 
 ```tsx
 import React from 'react';
-import { AiBrain, LlmNode, FeatureFlag, MrrChart } from 'obscura';
+import { AiBrain, LlmNode, FeatureFlag, MrrChart } from 'obscura-icons';
 
 function App() {
   return (
@@ -91,7 +91,7 @@ Icons inherit the current text color by default:
 Obscura is built with TypeScript and includes full type definitions:
 
 ```tsx
-import { AiBrain, type AiBrainProps } from 'obscura';
+import { AiBrain, type AiBrainProps } from 'obscura-icons';
 
 const MyComponent: React.FC<{ iconProps: AiBrainProps }> = ({ iconProps }) => {
   return <AiBrain {...iconProps} />;

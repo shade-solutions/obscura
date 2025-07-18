@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Obscura — The Icons You’ve Been Missing
 
-**NPM:** [Obscura on NPM](https://www.npmjs.com/package/obscura)
+**NPM:** [Obscura on NPM](https://www.npmjs.com/package/obscura-icons)
 **GitHub:** [github.com/shade-solutions/obscura](https://github.com/shade-solutions/obscura)
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura)
@@ -26,9 +26,9 @@ A minimal React icon library with **unique, rare, and niche icons** that other l
 ## 🚀 Installation
 
 ```bash
-npm install obscura
+npm install obscura-icons
 # or
-pnpm add obscura
+pnpm add obscura-icons
 ```
 
 ---
@@ -36,7 +36,7 @@ pnpm add obscura
 ## 🧪 Usage
 
 ```tsx
-import { AIAssistant, WorkflowBranch, SaaSChart } from 'obscura';
+import { AiAssistant, WorkflowBranch, MrrChart } from 'obscura-icons';
 
 function App() {
   return (

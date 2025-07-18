@@ -1,5 +1,5 @@
 {
-  "name": "obscura",
+  "name": "obscura-icons",
   "version": "1.0.0",
   "description": "A minimal React icon library with unique, rare, and niche icons that other libraries miss",
   "main": "dist/index.js",

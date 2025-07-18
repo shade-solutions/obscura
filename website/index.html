@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obscura Icons - The Icons You've Been Missing</title>
+    <meta name="description" content="A minimal React icon library with unique, rare, and niche icons that other libraries miss. Perfect for AI, SaaS, and developer tools.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 font-sans">
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6">
+                <div class="flex items-center space-x-4">
+                    <div class="text-2xl">🕵️‍♂️</div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Obscura</h1>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">The Icons You've Been Missing</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://www.npmjs.com/package/obscura-icons" 
+                       class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                        Install Package
+                    </a>
+                    <a href="https://github.com/shade-solutions/obscura" 
+                       class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+                Unique Icons for Modern Apps
+            </h2>
+            <p class="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+                A minimal React icon library with <strong>unique, rare, and niche icons</strong> that other libraries miss. 
+                Perfect for AI, SaaS dashboards, developer workflows, and modern UI needs.
+            </p>
+            <div class="bg-gray-900 dark:bg-gray-800 rounded-lg p-4 max-w-2xl mx-auto">
+                <code class="text-green-400 text-sm">npm install obscura-icons</code>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-8 bg-white dark:bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold text-blue-600 dark:text-blue-400" id="icon-count">13</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Unique Icons</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-green-600 dark:text-green-400">7.7kB</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Package Size</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-purple-600 dark:text-purple-400">100%</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">TypeScript</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">Tree</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400">Shakable</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon Grid -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Available Icons</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6" id="icon-grid">
+                <!-- Icons will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Example -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Usage Example</h3>
+            <div class="bg-gray-900 dark:bg-gray-700 rounded-lg p-6 overflow-x-auto">
+                <pre class="text-green-400 text-sm"><code>import { AiBrain, FeatureFlag, MrrChart } from 'obscura-icons';
+
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;AiBrain size={32} color="#3B82F6" /&gt;
+      &lt;FeatureFlag size={24} /&gt;
+      &lt;MrrChart size={28} color="#F59E0B" /&gt;
+    &lt;/div&gt;
+  );
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-600 dark:text-gray-400">
+                Made by <a href="https://shaswat.live" class="text-blue-600 dark:text-blue-400 hover:underline">Shaswat Raj</a> 
+                at <a href="https://github.com/shade-solutions" class="text-blue-600 dark:text-blue-400 hover:underline">Shade Solutions</a>
+            </p>
+            <p class="text-sm text-gray-500 dark:text-gray-500 mt-2">MIT License - Free for personal and commercial use</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

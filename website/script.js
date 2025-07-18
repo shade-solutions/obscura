@@ -4,15 +4,24 @@ const icons = [
     { name: 'LlmNode', category: 'AI & Automation', description: 'Large language model block' },
     { name: 'AiAssistant', category: 'AI & Automation', description: 'Friendly AI bot with chat bubbles' },
     { name: 'PromptEngine', category: 'AI & Automation', description: 'AI prompt generator/runner' },
+    { name: 'AgentFlow', category: 'AI & Automation', description: 'Agentic workflow icon' },
+    { name: 'ToolCall', category: 'AI & Automation', description: 'AI tools calling external functions' },
+    { name: 'MemoryBank', category: 'AI & Automation', description: 'Persistent memory or context' },
+    { name: 'TokenGrid', category: 'AI & Automation', description: 'Token visualization grid' },
     { name: 'FeatureFlag', category: 'SaaS & Analytics', description: 'Feature toggle icon' },
     { name: 'MrrChart', category: 'SaaS & Analytics', description: 'Monthly Recurring Revenue chart' },
     { name: 'ChurnRate', category: 'SaaS & Analytics', description: 'Customer drop-off analytics' },
+    { name: 'GrowthArrow', category: 'SaaS & Analytics', description: 'Startup-style growth graph' },
+    { name: 'FunnelConversion', category: 'SaaS & Analytics', description: 'Conversion funnel illustration' },
     { name: 'Roadmap', category: 'SaaS & Analytics', description: 'Milestone-style roadmap' },
+    { name: 'BetaBadge', category: 'SaaS & Analytics', description: 'Apps in beta/testing phase' },
     { name: 'ApiGateway', category: 'Developer Tools', description: 'API endpoints icon' },
+    { name: 'CliTerminal', category: 'Developer Tools', description: 'Dev terminal or CLI icon' },
+    { name: 'JwtToken', category: 'Developer Tools', description: 'JWT / auth tokens' },
+    { name: 'ConfigFile', category: 'Developer Tools', description: 'Config/JSON/YAML file icon' },
     { name: 'Webhook', category: 'Developer Tools', description: 'Webhooks and triggers' },
-    { name: 'ChatWidget', category: 'UI Widgets', description: 'Live chat widget' },
     { name: 'WorkflowBranch', category: 'Developer Tools', description: 'Workflow branching' },
-    { name: 'TokenGrid', category: 'AI & Automation', description: 'Token visualization grid' }
+    { name: 'ChatWidget', category: 'UI Widgets', description: 'Live chat widget' }
 ];
 
 // SVG icons as strings (simplified versions for demo)

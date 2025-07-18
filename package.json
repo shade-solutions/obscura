@@ -1,6 +1,6 @@
 {
   "name": "obscura-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimal React icon library with unique, rare, and niche icons that other libraries miss",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -36,7 +36,7 @@
     "type": "git",
     "url": "https://github.com/shade-solutions/obscura.git"
   },
-  "homepage": "https://obscura.shade.so",
+  "homepage": "https://shade-solutions.github.io/obscura",
   "bugs": {
     "url": "https://github.com/shade-solutions/obscura/issues"
   },

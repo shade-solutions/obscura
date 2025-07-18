@@ -2,6 +2,7 @@
 
 **NPM:** [Obscura on NPM](https://www.npmjs.com/package/obscura-icons)
 **GitHub:** [github.com/shade-solutions/obscura](https://github.com/shade-solutions/obscura)
+**Website:** [shade-solutions.github.io/obscura](https://shade-solutions.github.io/obscura)
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura)
 
@@ -81,10 +82,8 @@ Example: `ai-brain.svg` → `<AIBrain />`
 
 ## 🌐 Obscura Viewer Website
 
-We’re building a beautiful icon explorer at:
-👉 https://obscura-icons.pages.dev
-
-(coming soon)*
+Explore all icons at our beautiful icon explorer:
+👉 **[shade-solutions.github.io/obscura](https://shade-solutions.github.io/obscura)**
 
 Features:
 

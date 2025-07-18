@@ -1,0 +1,32 @@
+# Source files
+src/
+icons/
+scripts/
+
+# Config files
+tsconfig.json
+rollup.config.js
+.gitignore
+
+# Development files
+*.md
+!README.md
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+tmp_rovodev_*

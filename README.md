@@ -3,6 +3,8 @@
 **NPM:** [Obscura on NPM](https://www.npmjs.com/package/obscura)
 **GitHub:** [github.com/shade-solutions/obscura](https://github.com/shade-solutions/obscura)
 
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fshade-solutions%2Fobscura)
+
 A minimal React icon library with **unique, rare, and niche icons** that other libraries miss.
 
 > Obscura doesn’t try to replace Lucide — it completes it. We focus on icons for AI, SaaS dashboards, developer workflows, automation, agents, and more.
@@ -80,7 +82,9 @@ Example: `ai-brain.svg` → `<AIBrain />`
 ## 🌐 Obscura Viewer Website
 
 We’re building a beautiful icon explorer at:
-👉 **[obscura.shade.so](https://obscura.shade.so)** *(coming soon)*
+👉 https://obscura-icons.pages.dev
+
+(coming soon)*
 
 Features:
 
